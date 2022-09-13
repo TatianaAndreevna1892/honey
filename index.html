@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- img  обовязково вводити alt -->
+   <!--  -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,700&display=swap"
+      rel="stylesheet">
+   <meta name="description" content="ввести коротку інформацію про сайт">
+   <meta name="keywords" content="ввести ключові слова до 10 шт">
+
+
+
+
+   <link rel="stylesheet" href="css/reset.css">
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <link rel="stylesheet" href="https://unpkg.com/accordion-js@3.3.2/dist/accordion.min.css">
+   <link rel="stylesheet" href="css/slick.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson 12</title>
+</head>
+
+<body>
+
+   <header class="header js-header">
+      <div class="container">
+         <div class="header__inner">
+            <a href="#" class="header__logo"><img src="img/header/logo.svg" alt=""></a>
+            <nav class="menu">
+
+               <ul class="menu__list">
+                  <li class="menu__item"><a href="#home" class="menu__link">Головна</a></li>
+                  <li class="menu__item"><a href="#aboutus" class="menu__link">Про нас</a></li>
+                  <li class="menu__item"><a href="#stylelist" class="menu__link">Медок</a></li>
+                  <li class="menu__item"><a href="#teams" class="menu__link">Рецепти</a></li>
+                  <li class="menu__item"><a href="#contacts" class="menu__link">Контакти</a></li>
+               </ul>
+               <div class="hamburger">
+                  <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+               </div>
+            </nav>
+         </div>
+      </div>
+   </header>
+
+   <div class="header__top" id="home">
+      <div class="container">
+         <div class="header__top-inner">
+            <div class="header__top-img"  data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"><img src="img/header/honey.png" alt=""></div>
+            <div class="header__top-content">
+               <h1 class="header__top-title" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+               data-aos-duration="2000">Домашній мед з любовь'ю до вас</h1>
+               <div class="header__top-sbbtitle" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+               data-aos-duration="2000">Збираємо з власної ЕКО пасіки на будь який смак</div>
+               <a href="" class="header__top-btn btn" data-aos="fade-down" data-aos-easing="ease-out-cubic"
+               data-aos-duration="2000">Купити мед</a>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="aboutus" id="aboutus">
+      <div class="container">
+         <div class="aboutus__title title">Чому ми?</div>
+         <div class="aboutus__inner">
+
+            <div class="aboutus__content" data-aos="zoom-in" data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+               <div class="aboutus__img"><img src="img/about/1.svg" alt=""></div>
+               <div class="aboutus__text">Маємо більше 10 видів екологічно чистого меду</div>
+            </div>
+
+            <div class="aboutus__content" data-aos="zoom-in" data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+               <div class="aboutus__img"><img src="img/about/2.svg" alt=""></div>
+               <div class="aboutus__text">Власна пасіка яку ви можете відвідати та продегустувати всі види меду</div>
+            </div>
+
+            <div class="aboutus__content" data-aos="zoom-in" data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+               <div class="aboutus__img"><img src="img/about/3.svg" alt=""></div>
+               <div class="aboutus__text">Маємо більше 15 років комерційного досвіду та гуртових продажів</div>
+            </div>
+
+         </div>
+      </div>
+   </div>
+
+   <div class="prod" id="stylelist">
+      <div class="container">
+         <div class="prod__title title">Обери свій мед</div>
+         <div class="prod__slider">
+            <div class="prod__content">
+               <img src="img/prod/1.png" alt="">
+               <div class="prod__text">Акацієвий мед</div>
+               <div class="prod__num">300 г</div>
+               <div class="prod__price">350 грн</div>
+            </div>
+
+            <div class="prod__content">
+               <img src="img/prod/2.png" alt="">
+               <div class="prod__text">Гречаний мед</div>
+               <div class="prod__num">300 г</div>
+               <div class="prod__price">350 грн</div>
+            </div>
+
+            <div class="prod__content">
+               <img src="img/prod/3.png" alt="">
+               <div class="prod__text">Липовий мед</div>
+               <div class="prod__num">300 г</div>
+               <div class="prod__price">350 грн</div>
+            </div>
+
+            <div class="prod__content">
+               <img src="img/prod/1.png" alt="">
+               <div class="prod__text">Лісовий мед</div>
+               <div class="prod__num">300 г</div>
+               <div class="prod__price">350 грн</div>
+            </div>
+
+            <div class="prod__content">
+               <img src="img/prod/1.png" alt="">
+               <div class="prod__text">Луговий мед</div>
+               <div class="prod__num">300 г</div>
+               <div class="prod__price">350 грн</div>
+            </div>
+
+            <div class="prod__content">
+               <img src="img/prod/1.png" alt="">
+               <div class="prod__text">Вересовий
+                  мед</div>
+               <div class="prod__num">300 г</div>
+               <div class="prod__price">350 грн</div>
+            </div>
+
+            <div class="prod__content">
+               <img src="img/prod/1.png" alt="">
+               <div class="prod__text">Молочний мед</div>
+               <div class="prod__num">300 г</div>
+               <div class="prod__price">350 грн</div>
+            </div>
+
+            <div class="prod__content">
+               <img src="img/prod/1.png" alt="">
+               <div class="prod__text">Евкаліптовий мед</div>
+               <div class="prod__num">300 г</div>
+               <div class="prod__price">350 грн</div>
+            </div>
+
+            <div class="prod__content">
+               <img src="img/prod/1.png" alt="">
+               <div class="prod__text">Бавовняний мед</div>
+               <div class="prod__num">300 г</div>
+               <div class="prod__price">350 грн</div>
+            </div>
+
+            <div class="prod__content">
+               <img src="img/prod/1.png" alt="">
+               <div class="prod__text">Полівітамінний мед</div>
+               <div class="prod__num">300 г</div>
+               <div class="prod__price">350 грн</div>
+            </div>
+
+            <div class="prod__content">
+               <img src="img/prod/1.png" alt="">
+               <div class="prod__text">Хвойний мед</div>
+               <div class="prod__num">300 г</div>
+               <div class="prod__price">350 грн</div>
+            </div>
+
+
+            <div class="prod__content">
+               <img src="img/prod/1.png" alt="">
+               <div class="prod__text">Соняшниковий мед</div>
+               <div class="prod__num">300 г</div>
+               <div class="prod__price">350 грн</div>
+            </div>
+
+            <div class="prod__content">
+               <img src="img/prod/1.png" alt="">
+               <div class="prod__text">Кульбабовий мед</div>
+               <div class="prod__num">300 г</div>
+               <div class="prod__price">350 грн</div>
+            </div>
+
+            <div class="prod__content">
+               <img src="img/prod/1.png" alt="">
+               <div class="prod__text">Каштановий мед</div>
+               <div class="prod__num">300 г</div>
+               <div class="prod__price">350 грн</div>
+            </div>
+
+            <div class="prod__content">
+               <img src="img/prod/1.png" alt="">
+               <div class="prod__text">Конюшиновий мед</div>
+               <div class="prod__num">300 г</div>
+               <div class="prod__price">350 грн</div>
+            </div>
+
+
+         </div>
+      </div>
+   </div>
+
+
+   <div class="food" id="teams">
+      <div class="container">
+         <div class="food__title title">Цікаві рецепти з медом</div>
+         <div class="accordion-container">
+            <div class="ac" data-aos="fade-right"
+            data-aos-offset="100"
+            data-aos-easing="ease-in-sine">
+               <h2 class="ac-header">
+                  <button type="button" class="ac-trigger">Салат з гарбуза з яблуками і медом</button>
+               </h2>
+               <div class="ac-panel">
+                  <p class="ac-text">Гарбуз 600 г
+                     Яблука 4-5 шт.
+                     Лимон 1-2 шт.
+                     Мед і горіх за смаком
+                     Щоб приготувати Салат з гарбуза і яблук необхідно:
+                     Сиру гарбуз і яблука нарізати тонкою соломкою або натиреть на крупній тертці, додати цедру і сік
+                     лимона. Все змішати, заправити медом, зверху посипати меленими горіхами</p>
+               </div>
+            </div>
+
+            <div class="ac" data-aos="fade-right"
+            data-aos-offset="100"
+            data-aos-easing="ease-in-sine">
+               <h2 class="ac-header">
+                  <button type="button" class="ac-trigger">Свинячі відбивні з медом</button>
+               </h2>
+               <div class="ac-panel">
+                  <p class="ac-text">Свинячі відбивні — 6 штук,
+                     кетчуп — 1 чашка
+                     мед — 6 столових ложок
+                     лимон — 1 штука.
+                     Відбивні витираємо вологою серветкою. Змішуємо кетчуп з медом і заливаємо цією сумішшю відбивні.
+                     Кожну відбивну прикрашаємо скибочкою лимона. Витримуємо в духовці без кришки годину.</p>
+               </div>
+            </div>
+
+            <div class="ac" data-aos="fade-right"
+            data-aos-offset="100"
+            data-aos-easing="ease-in-sine">
+               <h2 class="ac-header">
+                  <button type="button" class="ac-trigger">Печиво з вівсяних пластівців</button>
+               </h2>
+               <div class="ac-panel">
+                  <p class="ac-text">Яйце – 1 шт.;
+                     цукор – 30 г;
+                     масло вершкове – 40 г;
+                     мед – 30 г;
+                     вівсяні пластівці – 100 г;
+                     сир – 150 г;
+                     борошно – 30 г;
+                     розпушувач – 1/2 ч. л.
+                     У ємності збити яйце, цукор, мед і розм’якшене масло.
+                     Поставити ємність на водяну баню, заважати до повного розчинення продуктів.
+                     Додати вівсяні пластівці і почекати поки вони набухнуть. Додати сир і борошно з розпушувачем,
+                     перемішати.
+                     Деко застелити пекарської папером, столовою ложкою викласти суміш. Випікати 15 хвилин при
+                     температурі 180 градусів.</p>
+               </div>
+            </div>
+
+            <div class="ac" data-aos="fade-right"
+            data-aos-offset="100"
+            data-aos-easing="ease-in-sine">
+               <h2 class="ac-header">
+                  <button type="button" class="ac-trigger">Медові пряники</button>
+               </h2>
+               <div class="ac-panel">
+                  <p class="ac-text">Мед – 250 г;
+                     мука в/с – 450 г;
+                     цукор – 75 г;
+                     масло вершкове – 30 г;
+                     яйце – 1 шт.;
+                     розпушувач – 1 ч. л.;
+                     кориця – щіпка.
+                     Підігріти мед, масло, цукор, корицю на мінімальному рівні нагріву, помішуючи, доводячи масу до
+                     гарячого стану. Важливо не кип’ятити!
+                     У миску просіяти борошно, додати розпушувач, вбити яйце, додати теплу медову суміш. Замісити тісто
+                     і покласти відпочивати в холодильник на пару годин.
+                     Тісто розкачати так, щоб воно було товщиною в палець. Вирізати пряники склянкою або спеціальною
+                     формою. Викласти на деко, змащене маслом і присипану борошном. Між пряниками потрібно залишити
+                     достатню відстань, адже вони ще піднімуться.
+                     Випікати 10 хвилин в духовці, розігрітій до 180 градусів.</p>
+               </div>
+            </div>
+            <div class="ac" data-aos="fade-right"
+            data-aos-offset="100"
+            data-aos-easing="ease-in-sine">
+               <h2 class="ac-header">
+                  <button type="button" class="ac-trigger">Печеня з свинини в соусі з медом</button>
+               </h2>
+               <div class="ac-panel">
+                  <p class="ac-text">Рослинне масло – 1/2 чашки ,
+                     кілька зубчиків товченого часнику,
+                     мед — 3 столові ложки,
+                     гірчична борошно — 1 їдальня ложка,
+                     свинячі відбивні — 2 штуки,
+                     смажена картопля .
+                     Змішуємо олію, часник, мед і гірчицю. Розкладаємо шматки свинячого м’яса на сковороді і заливаємо
+                     соусом. Ставимо в холодильник на добу, часом перевертаємо шматки м’яса. Виймаємо м’ясо з соусу і
+                     смажимо на спеку 30-45 хвилин. Заливаємо смажену картоплю соусом. М’ясо розрізаємо на шматочки і
+                     подаємо до столу.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+
+
+   <footer class="footer" id="contacts">
+      <div class="container">
+         <div class="footer__inner">
+            <div class="footer__info">
+               <div class="footer__adres"><img src="img/contact/1.svg" alt=""> м.Вінниця вул. Вінницька 1</div>
+               <div class="footer__tel"><a href="tel: 380670000000"><img src="img/contact/2.svg" alt="">+38 (067) 00 00
+                     000</a></div>
+               <div class="footer__mail"><img src="img/contact/3.svg" alt=""> myemail@gmail.com</div>
+            </div>
+
+            <div class="footer__soc">
+               <a href=""> <img src="img/contact/4.svg" alt=""></a>
+               <a href=""><img src="img/contact/5.svg" alt=""></a>
+               <a href=""><img src="img/contact/6.svg" alt=""></a>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://unpkg.com/accordion-js@3.3.2/dist/accordion.min.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="js/slick.min.js"></script>
+   <script src="js/main.js"></script>
+</body>
+
+
+</html>
